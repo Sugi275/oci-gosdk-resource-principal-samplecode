@@ -11,7 +11,6 @@ import (
 	fdk "github.com/fnproject/fdk-go"
 	"github.com/oracle/oci-go-sdk/core"
 	"github.com/oracle/oci-go-sdk/common/auth"
-	"github.com/Sugi275/oci-objectstorage-multiregioner/loglib"
 )
 
 func main() {
@@ -19,11 +18,6 @@ func main() {
 	// reader := os.Stdin
 	// writer := os.Stdout
 	// myHandler(context.TODO(), reader, writer)
-}
-
-//Person test
-type Person struct {
-	Name string `json:"name"`
 }
 
 func myHandler(ctx context.Context, in io.Reader, out io.Writer) {
